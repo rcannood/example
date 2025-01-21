@@ -3163,7 +3163,7 @@ meta = [
         {
           "type" : "apt",
           "packages" : [
-            "wget"
+            "curl"
           ],
           "interactive" : false
         }
@@ -3175,7 +3175,9 @@ meta = [
     "runner" : "nextflow",
     "engine" : "docker",
     "output" : "target/nextflow/mycomp",
-    "viash_version" : "0.9.1"
+    "viash_version" : "0.9.1",
+    "git_commit" : "a4812fcae91c773390883303ea5810837db56c01",
+    "git_remote" : "https://github.com/rcannood/example.git"
   },
   "package_config" : {
     "viash_version" : "0.9.1",

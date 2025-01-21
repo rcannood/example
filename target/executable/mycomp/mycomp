@@ -446,11 +446,13 @@ function ViashDockerfile {
 FROM ubuntu:latest
 ENTRYPOINT []
 RUN apt-get update && \
-  DEBIAN_FRONTEND=noninteractive apt-get install -y wget && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -y curl && \
   rm -rf /var/lib/apt/lists/*
 
 LABEL org.opencontainers.image.description="Companion container for running component mycomp"
-LABEL org.opencontainers.image.created="2025-01-21T09:25:46+01:00"
+LABEL org.opencontainers.image.created="2025-01-21T09:47:31+01:00"
+LABEL org.opencontainers.image.source="https://github.com/rcannood/example.git"
+LABEL org.opencontainers.image.revision="a4812fcae91c773390883303ea5810837db56c01"
 
 VIASHDOCKER
   fi

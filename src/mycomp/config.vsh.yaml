@@ -15,7 +15,7 @@ engines:
     setup:
       - type: apt
         packages:
-          - wget
+          - curl
 runners:
   - type: executable
   - type: nextflow

@@ -104,7 +104,7 @@ engines:
   setup:
   - type: "apt"
     packages:
-    - "wget"
+    - "curl"
     interactive: false
   entrypoint: []
   cmd: null
@@ -115,6 +115,8 @@ build_info:
   output: "target/nextflow/mycomp"
   executable: "target/nextflow/mycomp/main.nf"
   viash_version: "0.9.1"
+  git_commit: "a4812fcae91c773390883303ea5810837db56c01"
+  git_remote: "https://github.com/rcannood/example.git"
 package_config:
   info: null
   viash_version: "0.9.1"
