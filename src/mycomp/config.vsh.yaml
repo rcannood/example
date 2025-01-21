@@ -1,0 +1,21 @@
+name: mycomp
+arguments:
+  - type: file
+    name: --input
+  - type: file
+    name: --output
+    direction: output
+    example: output.txt
+resources:
+  - type: bash_script
+    path: script.sh
+engines:
+  - type: docker
+    image: ubuntu:latest
+    setup:
+      - type: apt
+        packages:
+          - wget
+runners:
+  - type: executable
+  - type: nextflow
