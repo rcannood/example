@@ -22,13 +22,6 @@ nextflow run target/nextflow/mycomp/main.nf \
   --input _viash.yaml \
   --publish_dir .
 
-# run locally with arguments
-nextflow run . \
-  -main-script target/nextflow/mycomp/main.nf \
-  --id foo \
-  --input _viash.yaml \
-  --publish_dir .
-
 # run locally with params file
 cat > param.yaml << HERE
 param_list:
@@ -46,6 +39,12 @@ publish_dir: output
 HERE
 
 nextflow run target/nextflow/mycomp/main.nf \
+  -params-file param.yaml
+
+
+# run locally with arguments
+nextflow run . \
+  -main-script target/nextflow/mycomp/main.nf \
   -params-file param.yaml
 
 # run from remote repository
