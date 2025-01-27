@@ -1,3 +1,12 @@
+# run without building
+# (actually viash will build it to a 
+# temporary directory and execute it from there)
+viash run src/mycomp/config.vsh.yaml -- --help
+
+viash run src/mycomp/config.vsh.yaml -- \
+  --input _viash.yaml \
+  --output bar.txt
+
 # build all components
 viash ns build --setup cachedbuild
 
