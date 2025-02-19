@@ -450,9 +450,9 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
 
 LABEL org.opencontainers.image.description="Companion container for running component mycomp"
-LABEL org.opencontainers.image.created="2025-02-19T12:32:14Z"
+LABEL org.opencontainers.image.created="2025-02-19T12:40:38Z"
 LABEL org.opencontainers.image.source="https://github.com/rcannood/example"
-LABEL org.opencontainers.image.revision="9eac72853baa3009267fde579db6b3a06f5189ba"
+LABEL org.opencontainers.image.revision="e3327f7aaaaac7ee2683fa9153c4936423866eed"
 LABEL org.opencontainers.image.version="build_main"
 
 VIASHDOCKER

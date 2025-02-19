@@ -3188,7 +3188,7 @@ meta = [
     "engine" : "docker",
     "output" : "target/nextflow/mycomp",
     "viash_version" : "0.9.1",
-    "git_commit" : "9eac72853baa3009267fde579db6b3a06f5189ba",
+    "git_commit" : "e3327f7aaaaac7ee2683fa9153c4936423866eed",
     "git_remote" : "https://github.com/rcannood/example"
   },
   "package_config" : {
