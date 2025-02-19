@@ -95,10 +95,10 @@ nextflow run https://viash-hub.com/vsh/biobox \
   -latest \
   -main-script target/nextflow/arriba/main.nf \
   -profile docker \
-  --bam src/arriba/test_data/A.bam \
-  --genome src/arriba/test_data/genome.fasta \
-  --gene_annotation src/arriba/test_data/annotation.gtf \
-  --blacklist src/arriba/test_data/blacklist.tsv \
+  --bam https://github.com/viash-hub/biobox/raw/refs/heads/main/src/arriba/test_data/A.bam \
+  --genome https://raw.githubusercontent.com/viash-hub/biobox/refs/heads/main/src/arriba/test_data/genome.fasta \
+  --gene_annotation https://raw.githubusercontent.com/viash-hub/biobox/refs/heads/main/src/arriba/test_data/annotation.gtf \
+  --blacklist https://raw.githubusercontent.com/viash-hub/biobox/refs/heads/main/src/arriba/test_data/blacklist.tsv \
   --interesting_contigs 1,2 \
   --publish_dir output
 
