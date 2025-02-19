@@ -1,0 +1,18 @@
+# nextflow
+work
+.nextflow*
+
+# ide
+.vscode
+
+# viash
+
+# related to this repo
+bar*
+foo*
+dong*
+zing*
+xxx*
+Dockerfile
+param*
+run*
