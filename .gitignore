@@ -1,6 +1,12 @@
+# nextflow
 work
 .nextflow*
+
+# ide
 .vscode
+
+# viash
+target
 
 # related to this repo
 bar*
