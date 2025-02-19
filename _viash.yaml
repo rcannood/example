@@ -1,1 +1,9 @@
 viash_version: 0.9.1
+
+name: example
+organization: rcannood
+version: dev
+
+links:
+  repository: https://github.com/rcannood/example
+  docker_registry: ghcr.io
